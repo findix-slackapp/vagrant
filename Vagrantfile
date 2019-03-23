@@ -79,5 +79,6 @@ Vagrant.configure("2") do |config|
     yum -y install epel-release
     yum -y install python-pip
     pip install pip --upgrade
+    yum -y install python36 python36-virtualenv python36-pip
   SHELL
 end
